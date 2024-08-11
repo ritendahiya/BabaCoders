@@ -10,35 +10,35 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.ibb.co/LkcvT7j/home.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/LkcvT7j/home.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/nPXx6t8/features.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/nPXx6t8/features.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/QpbXLbK/testimonial.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/QpbXLbK/testimonial.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/t41Vv6M/highlight.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/t41Vv6M/highlight.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/tJLxhPC/Pricing.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/tJLxhPC/Pricing.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/Btb8VrZ/FAQ.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/Btb8VrZ/FAQ.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/HxQhxyF/blog.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/HxQhxyF/blog.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/Z6tLTC4/sign-in-d.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/Z6tLTC4/sign-in-d.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/G76nWn7/sign-uo.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/G76nWn7/sign-uo.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/fnRNGM3/book-appointment.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/fnRNGM3/book-appointment.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/2qYfdNM/payment.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/2qYfdNM/payment.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/tPGrJHs/Payment-successful.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/tPGrJHs/Payment-successful.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/FncVK4q/start-consultation.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/FncVK4q/start-consultation.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/8462nMf/virtual-consultation.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/8462nMf/virtual-consultation.png" alt="project-screenshot" width="800" height="600/">
 
-<img src="https://i.ibb.co/JmjJ5vH/Screenshot-2024-08-11-at-9-29-14-PM.png" alt="project-screenshot" width="700" height="800/">
+<img src="https://i.ibb.co/JmjJ5vH/Screenshot-2024-08-11-at-9-29-14-PM.png" alt="project-screenshot" width="800" height="600/">
 
   
   

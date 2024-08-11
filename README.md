@@ -53,6 +53,36 @@ Here're some of the project's best features:
 *   Testimonials
 *   FAQ's
 
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the Repository:</p>
+
+```
+git clone 
+```
+
+<p>2. Install Dependencies:</p>
+
+```
+npm install
+```
+
+<p>3. Run the Application:</p>
+
+```
+npm start  
+```
+
+<p>4. Access the Application:</p>
+
+```
+http://localhost:3000
+```
+
+<h2>🍰 Contribution Guidelines:</h2>
+
+Please Contribute using GitHub Flow. Create a branch add commits and open a pull request.
+
   
   
 <h2>💻 Built with</h2>

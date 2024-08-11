@@ -104,3 +104,12 @@ This project is licensed under the MIT License.
 <h2>💖Like my work?</h2>
 
 If you like the work please support us:-
+Follow us on
+<br>
+<a href="https://github.com/diwanshu2004"> Diwanshu Kumar</a>
+<br>
+<a href="https://github.com/ritendahiya"> Riten Dahiya</a>
+<br>
+<a href="https://github.com/tomerpranay"> Pranay Tomer</a>
+<br>
+<a href="https://github.com/punkilbaliyan"> Punkil Baliyan</a>

@@ -8,7 +8,7 @@ const main = {
 };
 const createRoom = async () => {
   const apiKey =
-    "0a41141358f6c0571b15f8b0b5596025fde424d4c56e2c97596570ff2779d049";
+    "20a4c5b7bb6cf1d70175ee7182c6423a648dff647dbd80112d8407fd0936bd25";
 
   try {
     const response = await axios.post(

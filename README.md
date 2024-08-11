@@ -17,8 +17,6 @@
 <img src="https://i.ibb.co/QpbXLbK/testimonial.png" alt="project-screenshot" width="900" height="550/">
 <h1>Highlights</h1>
 <img src="https://i.ibb.co/t41Vv6M/highlight.png" alt="project-screenshot" width="900" height="550/">
-<h1>Pricing</h1>
-<img src="https://i.ibb.co/tJLxhPC/Pricing.png" alt="project-screenshot" width="900" height="550/">
 <h1>FAQ's</h1>
 <img src="https://i.ibb.co/Btb8VrZ/FAQ.png" alt="project-screenshot" width="900" height="550/">
 <h1>Blogs</h1>

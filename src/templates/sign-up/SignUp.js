@@ -18,6 +18,7 @@ import AutoAwesomeRoundedIcon from "@mui/icons-material/AutoAwesomeRounded";
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import getSignUpTheme from "./getSignUpTheme";
 import { GoogleIcon, FacebookIcon } from "./CustomIcons";
+import axios from "axios";
 
 const Card = styled(MuiCard)(({ theme }) => ({
   display: "flex",
@@ -37,7 +38,15 @@ const Card = styled(MuiCard)(({ theme }) => ({
       "hsla(220, 30%, 5%, 0.5) 0px 5px 15px 0px, hsla(220, 25%, 10%, 0.08) 0px 15px 35px -5px, hsla(220, 30%, 5%, 0.05) 0px 0px 0px 1px",
   }),
 }));
-
+const signUpFunc = async (name, email, password) => {
+  try {
+    console.log(name);
+    console.log(password);
+    console.log(email);
+  } catch (err) {
+    console.log("error", err);
+  }
+};
 const SignUpContainer = styled(Stack)(({ theme }) => ({
   height: "auto",
   paddingBottom: theme.spacing(12),
@@ -55,6 +64,16 @@ const SignUpContainer = styled(Stack)(({ theme }) => ({
 }));
 
 export default function SignUp() {
+  const [form, setForm] = React.useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+  console.log("🚀 ~ SignUp ~ form:", form);
+  const handleonChange = (val, name) => {
+    setForm({ ...form, [name]: val });
+  };
+
   const [mode, setMode] = React.useState("light");
   const [showCustomTheme, setShowCustomTheme] = React.useState(true);
   const defaultTheme = createTheme({ palette: { mode } });
@@ -66,42 +85,49 @@ export default function SignUp() {
   const [nameError, setNameError] = React.useState(false);
   const [nameErrorMessage, setNameErrorMessage] = React.useState("");
 
-  const validateInputs = () => {
-    const email = document.getElementById("email");
-    const password = document.getElementById("password");
-    const name = document.getElementById("name");
+  // const validateInputs = () => {
+  //   const email = document.getElementById("email");
+  //   const password = document.getElementById("password");
+  //   const name = document.getElementById("name");
+  //   const [form, setForm] = React.useState({
+     
+  //     email: "",
+  //     password: "",
+  //   });
 
-    let isValid = true;
+  //   let isValid = true;
 
-    if (!email.value || !/\S+@\S+\.\S+/.test(email.value)) {
-      setEmailError(true);
-      setEmailErrorMessage("Please enter a valid email address.");
-      isValid = false;
-    } else {
-      setEmailError(false);
-      setEmailErrorMessage("");
-    }
+  //   if (!email.value || !/\S+@\S+\.\S+/.test(email.value)) {
+  //     setEmailError(true);
+  //     setEmailErrorMessage("Please enter a valid email address.");
+  //     isValid = false;
+  //   } else {
+  //     setEmailError(false);
+  //     setEmailErrorMessage("");
+  //   }
 
-    if (!password.value || password.value.length < 6) {
-      setPasswordError(true);
-      setPasswordErrorMessage("Password must be at least 6 characters long.");
-      isValid = false;
-    } else {
-      setPasswordError(false);
-      setPasswordErrorMessage("");
-    }
+  //   if (!password.value || password.value.length < 6) {
+  //     setPasswordError(true);
+  //     setPasswordErrorMessage("Password must be at least 6 characters long.");
+  //     isValid = false;
+  //   } else {
+  //     setPasswordError(false);
+  //     setPasswordErrorMessage("");
+  //   }
 
-    if (!name.value || name.value.length < 1) {
-      setNameError(true);
-      setNameErrorMessage("Name is required.");
-      isValid = false;
-    } else {
-      setNameError(false);
-      setNameErrorMessage("");
-    }
-
-    return isValid;
-  };
+  //   if (!name.value || name.value.length < 1) {
+  //     setNameError(true);
+  //     setNameErrorMessage("Name is required.");
+  //     isValid = false;
+  //   } else {
+  //     setNameError(false);
+  //     setNameErrorMessage("");
+  //   }
+  //   if (isValid) {
+  //     signUpFunc(name, email, password);
+  //   }
+  //   return isValid;
+  // };
 
   const toggleColorMode = () => {
     setMode((prev) => (prev === "dark" ? "light" : "dark"));
@@ -111,15 +137,23 @@ export default function SignUp() {
     setShowCustomTheme((prev) => !prev);
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      name: data.get("name"),
-      lastName: data.get("lastName"),
-      email: data.get("email"),
-      password: data.get("password"),
-    });
+
+    const handleSubmit = async (e) => {
+    try {
+      e.preventDefault()
+      const response = await axios.post('https://8cldvrgq-3000.inc1.devtunnels.ms/api/auth/register', {
+        // Replace with your request payload
+        name: form.name,
+        email: form.email,
+        password: form.password,
+      });
+
+      console.log('Response:', response.data);
+      // Handle the response
+    } catch (err) {
+    
+      console.error('Error:', err);
+    }
   };
 
   return (
@@ -151,7 +185,6 @@ export default function SignUp() {
           }}
         >
           <Card>
-            
             <Typography
               component="h1"
               variant="h4"
@@ -161,7 +194,7 @@ export default function SignUp() {
             </Typography>
             <Box
               component="form"
-              onSubmit={handleSubmit}
+              type="submit"
               sx={{ display: "flex", flexDirection: "column", gap: 2 }}
             >
               <FormControl>
@@ -169,6 +202,10 @@ export default function SignUp() {
                 <TextField
                   autoComplete="name"
                   name="name"
+                  value={form.name}
+                  onChange={(e) =>
+                    handleonChange(e.target.value, e.target.name)
+                  }
                   required
                   fullWidth
                   id="name"
@@ -184,6 +221,10 @@ export default function SignUp() {
                   required
                   fullWidth
                   id="email"
+                  value={form.email}
+                  onChange={(e) =>
+                    handleonChange(e.target.value, e.target.name)
+                  }
                   placeholder="your@email.com"
                   name="email"
                   autoComplete="email"
@@ -199,6 +240,10 @@ export default function SignUp() {
                   required
                   fullWidth
                   name="password"
+                  value={form.password}
+                  onChange={(e) =>
+                    handleonChange(e.target.value, e.target.name)
+                  }
                   placeholder="••••••"
                   type="password"
                   id="password"
@@ -217,7 +262,7 @@ export default function SignUp() {
                 type="submit"
                 fullWidth
                 variant="contained"
-                onClick={validateInputs}
+                onClick={handleSubmit}
               >
                 Sign up
               </Button>
@@ -257,7 +302,6 @@ export default function SignUp() {
           </Card>
         </Stack>
       </SignUpContainer>
-    
     </ThemeProvider>
   );
 }

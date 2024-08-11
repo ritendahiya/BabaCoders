@@ -24,7 +24,7 @@
 <h1>Blogs</h1>
 <img src="https://i.ibb.co/HxQhxyF/blog.png" alt="project-screenshot" width="900" height="550/">
 <h1>Sign In</h1>
-<img src="https://i.ibb.co/Z6tLTC4/sign-in-d.png" alt="project-screenshot" width="900" height="550/">
+<img src="https://i.ibb.co/Z6tLTC4/sign-in-d.png" width="900" height="550/">
 <h1>Sign Up</h1>
 <img src="https://i.ibb.co/G76nWn7/sign-uo.png" alt="project-screenshot" width="900" height="550/">
 <h1>Book-Appointment</h1>

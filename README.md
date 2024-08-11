@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<h1 align="center" id="title">Baba Coders</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://socialify.git.ci/ritendahiya/BabaCoders/image?description=1&amp;descriptionEditable=Mediconnect%20Healthcare%20Project%20VEERSA&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;pattern=Brick%20Wall&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-## Available Scripts
+<p id="description">Our healthcare website offers convenient remote consultations including secure video and virtual consultations allowing you to connect with healthcare providers from anywhere. We also provide 24/7 chatbot assistance for instant support and answers to common health questions ensuring accessible personalized care at your fingertips.</p>
 
-In the project directory, you can run:
+<h2>🚀 Demo</h2>
 
-### `npm start`
+[https://baba-coders.vercel.app/](https://baba-coders.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Project Screenshots:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://i.ibb.co/LkcvT7j/home.png" alt="project-screenshot" width="700" height="500/">
 
-### `npm test`
+<img src="https://i.ibb.co/nPXx6t8/features.png" alt="project-screenshot" width="700" height="500/">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://i.ibb.co/QpbXLbK/testimonial.png" alt="project-screenshot" width="700" height="500/">
 
-### `npm run build`
+<img src="https://i.ibb.co/t41Vv6M/highlight.png" alt="project-screenshot" width="700" height="500/">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://i.ibb.co/tJLxhPC/Pricing.png" alt="project-screenshot" width="700" height="500/">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://i.ibb.co/Btb8VrZ/FAQ.png" alt="project-screenshot" width="700" height="500/">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://i.ibb.co/HxQhxyF/blog.png" alt="project-screenshot" width="700" height="500/">
 
-### `npm run eject`
+<img src="https://i.ibb.co/Z6tLTC4/sign-in-d.png" alt="project-screenshot" width="700" height="500/">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="https://i.ibb.co/G76nWn7/sign-uo.png" alt="project-screenshot" width="700" height="500/">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://i.ibb.co/fnRNGM3/book-appointment.png" alt="project-screenshot" width="700" height="500/">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://i.ibb.co/2qYfdNM/payment.png" alt="project-screenshot" width="700" height="500/">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://i.ibb.co/tPGrJHs/Payment-successful.png" alt="project-screenshot" width="700" height="500/">
 
-## Learn More
+<img src="https://i.ibb.co/FncVK4q/start-consultation.png" alt="project-screenshot" width="700" height="500/">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://i.ibb.co/8462nMf/virtual-consultation.png" alt="project-screenshot" width="700" height="500/">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://i.ibb.co/JmjJ5vH/Screenshot-2024-08-11-at-9-29-14-PM.png" alt="project-screenshot" width="700" height="500/">
 
-### Code Splitting
+  
+  
+<h2>🧐 Features</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here're some of the project's best features:
 
-### Analyzing the Bundle Size
+*   Virtual Consultation
+*   Chatbot Assistance
+*   Payment Gateway
+*   SignIn/SignUp
+*   Book Appointment
+*   Blogs
+*   Testimonials
+*   FAQ's
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  
+  
+<h2>💻 Built with</h2>
 
-### Making a Progressive Web App
+Technologies used in the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*   MERN Stack
+*   SquareUp
+*   Daily.co WebRTC
+*   MySQL
+*   JWT Token
+*   Node Mailer
+*   Figma
 
-### Advanced Configuration
+<h2>🛡️ License:</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the
 
-### Deployment
+<h2>💖Like our work?</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you like the work please support us.
